@@ -1,95 +1,21 @@
 import Image from "next/image";
-import styles from "./page.module.css";
+import "./globals.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+    <main>
+      <div class= "meio"/><img src="https://s3-alpha-sig.figma.com/img/5f3a/f703/4087795e8b61a1155d8e286718174bbf?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QLB4rpbN2oJfIw71o~jKMBJeMHfOCQCkxmrX2NyxpivQWcLLUVpe4Skzsv6jZ3f-BnBoa76msBkwKxAIXOfAcsUAlNV-r2qyG2FUNn2Ehn5VsRhxGs-wgxAdwyk~dMDR~jCWYcwS3MurJS63Lc-9iTLHBMuA4AZtJ8Xz5DuSMUlTLEUEtwaSJYZIUPpXeND7qbulzAeNkcKcuXldPoQ-1eiEf99tcBD8MN0xUVNA8NUGxHyuGDabyOsFW4nbH7SPA8G9FjE9F5X8KLgmVuLGPVSq81FINPVctQPdUSQuXYKU14IegqBIGVgbTAyS~xbD9R34Lrxsqh9p2R2jnUvYKg__" alt="Descrição da imagem"/>
+                <form action="file:///C:/Users/Cliente/OneDrive/Área%20de%20Trabalho/git/fabrica/segunda.html"/>
+                <label  for="email">email</label>
+                <br></br>
+                <input class="email" type="email" id="email" name="email_Usuario"/>
+                <br></br>
+                <label  for="senha">senha</label>
+                <br></br>
+                <input class="senha" type="number" id="senha" name="senha_usuario"/>
+                <br></br>
+            <input class="botao" type="submit" value="enviar"/>
+                
     </main>
   );
 }
